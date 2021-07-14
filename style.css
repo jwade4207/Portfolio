@@ -1,0 +1,171 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: lightslategray;
+}
+
+ header {
+    display: inline-flex;
+    align-items: flex-end;
+ }
+ 
+.personal-info {
+    display: inline-flex;
+}
+
+header h1 {
+    color: mediumblue;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+header img {
+    border-radius: 50% 50%;
+    width: 100px;
+    height: auto;
+}
+
+header nav {
+    position: absolute;
+    right: 0;
+}
+
+.navigation>li> a:hover {
+    background: beige;
+    border-radius: 10px;
+}
+
+header nav ul li a {
+    color: mediumblue;
+    padding: 10px 15px;
+    font-weight:bold;
+    font-size: large;
+    text-decoration: none;
+   
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+
+
+section {
+    display: flex;
+    padding: 60px;
+    color: lightslategray;
+    justify-content: flex-end
+    
+}
+
+
+.hero {
+    background-image:url(./images/PortfolioHero.jpg);
+    height: 60px;
+}
+
+
+.hero-welcome {
+    right: 25px;
+    bottom: 30px;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px blue;
+}
+
+#about-me h2 {
+    border-bottom: 2px solid;
+}
+
+.get-to-know {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content {
+    background-color: mediumblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#my-work h2 {
+    border-bottom: 2px solid;
+}
+
+.get-in-touch {
+    background-color: blanchedalmond;
+    color: mediumblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.get-in-touch h2 {
+    border-bottom: 2px solid;
+}
+
+.get-in-touch h3 {
+    color: lightslategrey;
+    font-style: italic;
+}
+
+
+#app-tabs {
+    max-width: 1080px;
+    height: fit-content;
+    margin: 100px 0 100px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px blue;
+}
+
+#app-tabs a {
+    color: white;
+    text-shadow: 2px 2px blue;
+    text-decoration: none;
+}
+
+.app {
+    height: 100px; 
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(6, 42, 43);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.larger {
+    height: 200px;
+    width: 780px;
+    background-image: url("./images/hero-bg.jpeg");
+    background-size:cover
+}
+
+
+
+.TBD {
+    width: 500px;
+    margin: 10px;
+    background-image: url("./images/Construction\ Site.jpeg");
+    background-size: cover;
+}
+
+.Brewed {
+    width: 500px;
+    margin: 10px;
+    background-image: url("./images/Brewed-Force.png");
+    background-size: cover;
+} 
